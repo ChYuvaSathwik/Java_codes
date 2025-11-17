@@ -1,0 +1,17 @@
+package com.sathwik.first;
+import java.util.*;
+public class FirstProgram{
+	public static void main(String [] args) {
+		Scanner sc=new Scanner(System.in);
+			int n=sc.nextInt();
+			int [] array1=new int[n];
+			for(int i=0;i<n;i++) {
+				array1[i]=sc.nextInt();
+				
+			}
+			Arrays.sort(array1);
+			int c=array1.length;
+			System.out.println(array1[c-1]);
+		}
+	
+}
