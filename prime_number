@@ -1,0 +1,28 @@
+package com.sathwik.first;
+import java.util.*;
+public class FirstProgram{
+	public static void main(String [] args) {
+		int Z=4;
+		boolean f=true;
+		if (Z<2) {
+			f=false;
+		}
+		else {
+			
+		for(int i=2;i<=Math.sqrt(Z);i++) {
+			if(Z%i==0) {
+				f=false;
+				break;
+			}
+			}
+		}
+		if (f) {
+			System.out.println("prime_number");
+		}
+		else{
+			System.out.println("not prime");
+			
+		}
+		}}
+
+    """missing  you z**0.5+1"""
