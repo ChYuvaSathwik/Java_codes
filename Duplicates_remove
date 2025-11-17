@@ -1,0 +1,17 @@
+package com.sathwik.first;
+import java.util.*;
+public class FirstProgram{
+	public static void main(String [] args) {
+		HashSet<Character>hm=new HashSet<>();
+		ArrayList<Character>bn=new ArrayList<>();
+		Scanner sc=new Scanner(System.in);
+		String sathwik=sc.next();
+		for(char h:sathwik.toCharArray()) {
+			if (!hm.contains(h)) {
+				hm.add(h);
+				bn.add(h);
+			}
+				
+			}
+		System.out.println(bn);
+	}}
