@@ -1,0 +1,17 @@
+package com.sathwik.first;
+import java.util.*;
+public class FirstProgram{
+	public static void main(String [] args) {
+		HashMap<Character,Integer>hm=new HashMap<>();
+		Scanner sc=new Scanner(System.in);
+		String sathwik=sc.next();
+		for(char i:sathwik.toCharArray()) {
+			hm.put(i,hm.getOrDefault(i, 0)+1);
+			
+		}
+		for(char gh:hm.keySet()) {
+			if (hm.get(gh)==2) {
+				System.out.println(gh);
+			}
+		}
+		}}
